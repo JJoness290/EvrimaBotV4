@@ -1,0 +1,7 @@
+{
+  "executor": "in_game_executor_v2",
+  "state": "sleeping",
+  "timestamp": "2026-04-03T15:41:47.549116+00:00",
+  "pid": 23472,
+  "delay": 2
+}

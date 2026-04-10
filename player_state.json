@@ -1,0 +1,25 @@
+{
+  "online_since": {
+    "76561198721331299": 1775828437
+  },
+  "last_minute_tick": {
+    "76561198721331299": 1775828617
+  },
+  "restart_cycle_state": {
+    "next_restart_iso": "2026-04-10T18:00:00+01:00",
+    "is_active": true,
+    "sent_3m": false,
+    "sent_2m": false,
+    "sent_1m": false,
+    "sent_restart_now": false,
+    "sent_back_up": false,
+    "last_countdown_text": null,
+    "executor_stale_reported": false,
+    "progress_message_id": 1490757401312366652,
+    "progress_channel_id": 1487645144055287858,
+    "admin_dashboard_message_id": 1491728784968122398,
+    "admin_dashboard_channel_id": 1487645144055287858
+  },
+  "bot_presence_state": "BOT_IN_GAME",
+  "last_bot_seen_at": 1775828583.8372498
+}

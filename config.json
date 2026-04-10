@@ -1,0 +1,12 @@
+{
+  "scan_interval": 60,
+  "energy_per_interval": 15,
+  "interval_minutes": 60,
+
+  "rcon_password": "qFHrZpel6qwF",
+
+  "bot_presence": {
+    "player_name": "Primal Abyss Bot",
+    "steam_id": "76561198721331299"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "76561198091988153": {
+    "name": "Kaos Maximo",
+    "total_minutes": 147,
+    "current_session_minutes": 0,
+    "energy": 45,
+    "sessions": 4
+  },
+  "76561199812354519": {
+    "name": "duck",
+    "total_minutes": 148,
+    "current_session_minutes": 0,
+    "energy": 30,
+    "sessions": 3
+  },
+  "76561199368775257": {
+    "name": "Fish :)",
+    "total_minutes": 96,
+    "current_session_minutes": 14,
+    "energy": 1200,
+    "sessions": 3,
+    "steam_id": "76561199368775257"
+  },
+  "76561199446883966": {
+    "name": "splatter",
+    "total_minutes": 146,
+    "current_session_minutes": 0,
+    "energy": 30,
+    "sessions": 3
+  },
+  "76561199170469822": {
+    "name": "SleepyBear",
+    "total_minutes": 229,
+    "current_session_minutes": 0,
+    "energy": 1240,
+    "sessions": 5,
+    "steam_id": "76561199170469822"
+  },
+  "76561198752520824": {
+    "name": "shadbear",
+    "total_minutes": 144,
+    "current_session_minutes": 0,
+    "energy": 30,
+    "sessions": 4
+  },
+  "76561198798435427": {
+    "name": "JJoness290",
+    "total_minutes": 1131,
+    "current_session_minutes": 0,
+    "energy": 1326,
+    "sessions": 17,
+    "steam_id": "76561198798435427",
+    "energy_fraction": 0.5,
+    "last_energy_note": "Purchase refund (trike) @ 2026-04-10 13:43:38.701455"
+  },
+  "76561199825068385": {
+    "name": "sleepy mat",
+    "total_minutes": 149,
+    "current_session_minutes": 0,
+    "energy": 42,
+    "sessions": 4,
+    "steam_id": "76561199825068385",
+    "energy_fraction": 0.5
+  },
+  "76561199436698935": {
+    "name": "KidBear",
+    "total_minutes": 232,
+    "current_session_minutes": 14,
+    "energy": 1230,
+    "sessions": 5,
+    "steam_id": "76561199436698935"
+  },
+  "76561198826479081": {
+    "name": "Aedot44",
+    "total_minutes": 107,
+    "current_session_minutes": 0,
+    "energy": 22,
+    "sessions": 2,
+    "steam_id": "76561198826479081",
+    "energy_fraction": 0.25
+  },
+  "76561198018914237": {
+    "name": "HellHound",
+    "total_minutes": 17,
+    "current_session_minutes": 0,
+    "energy": 0,
+    "sessions": 2
+  },
+  "76561199230260982": {
+    "name": "Vegeta",
+    "total_minutes": 194,
+    "current_session_minutes": 14,
+    "energy": 1275,
+    "sessions": 8,
+    "steam_id": "76561199230260982"
+  },
+  "76561199403015959": {
+    "name": "darji",
+    "steam_id": "76561199403015959",
+    "total_minutes": 10,
+    "current_session_minutes": 0,
+    "energy": 102,
+    "energy_fraction": 0.5,
+    "sessions": 0
+  },
+  "76561199418837505": {
+    "name": "Peerless",
+    "steam_id": "76561199418837505",
+    "total_minutes": 12,
+    "current_session_minutes": 0,
+    "energy": 103,
+    "energy_fraction": 0.0,
+    "sessions": 0
+  },
+  "76561199760104112": {
+    "name": "GhillieGhost",
+    "steam_id": "76561199760104112",
+    "total_minutes": 29,
+    "current_session_minutes": 0,
+    "energy": 107,
+    "energy_fraction": 0.25,
+    "sessions": 1
+  },
+  "76561199836011190": {
+    "name": "ix",
+    "steam_id": "76561199836011190",
+    "total_minutes": 6,
+    "current_session_minutes": 0,
+    "energy": 101,
+    "energy_fraction": 0.5,
+    "sessions": 0
+  },
+  "335,343.395,": {
+    "name": "\u265b \ud835\udcdf\ud835\udcd4\ud835\udcd4\ud835\udce1\ud835\udcdb\ud835\udcd4\ud835\udce2\ud835\udce2\u265b",
+    "steam_id": "335,343.395,",
+    "total_minutes": 0,
+    "current_session_minutes": 0,
+    "energy": 100,
+    "energy_fraction": 0.0,
+    "sessions": 0
+  },
+  "76561198721331299": {
+    "name": "Primal Abyss Bot",
+    "steam_id": "76561198721331299",
+    "total_minutes": 3,
+    "current_session_minutes": 3,
+    "energy": 0,
+    "energy_fraction": 0.75,
+    "sessions": 1
+  }
+}
