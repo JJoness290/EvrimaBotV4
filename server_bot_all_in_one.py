@@ -29,6 +29,7 @@ PURCHASES_FILE = Path("purchases.json")
 GAME_COMMANDS_FILE = Path("game_commands.json")
 REFERRALS_FILE = Path("referrals.json")
 CONFIG_FILE = Path("config.json")
+LAUNCHER_PATHS_FILE = Path("launcher_paths.json")
 EXECUTOR_HEARTBEAT_FILE = Path("executor_heartbeat.json")
 CONFIG_DEBUG_LOGGED = False
 
@@ -105,8 +106,41 @@ announcement_messages = [
     "=== PRIMAL ABYSS ===\nNew Survival Universe\nEarn Energy • !buy & !claim PRIME\ndiscord.gg/HpJVNa69Ww"
 ]
 
-RCON_SCRIPT = r"C:\Users\joshu\Downloads\The-Isle-Evrima-Server-Tools-main\TheIsle_RCON.py"
-RCONCLI_PATH = r"C:\Users\joshu\Documents\EvrimaBot\RconCli\bin\Release\net8.0\RconCli.exe"
+def _load_launcher_paths() -> dict:
+    if not LAUNCHER_PATHS_FILE.exists():
+        return {}
+    try:
+        return json.loads(LAUNCHER_PATHS_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _resolve_existing_path(candidates):
+    for candidate in candidates:
+        if not candidate:
+            continue
+        path = Path(candidate)
+        if path.exists():
+            return str(path)
+    return str(candidates[0]) if candidates else ""
+
+
+_launcher_paths = _load_launcher_paths()
+RCON_SCRIPT = _resolve_existing_path([
+    os.getenv("RCON_SCRIPT_PATH", ""),
+    _launcher_paths.get("rcon_script_path", ""),
+    "tools/TheIsle_RCON.py",
+    "TheIsle_RCON.py",
+    r"C:\Users\joshu\Downloads\The-Isle-Evrima-Server-Tools-main\TheIsle_RCON.py",
+])
+RCONCLI_PATH = _resolve_existing_path([
+    os.getenv("RCONCLI_PATH", ""),
+    _launcher_paths.get("rconcli_path", ""),
+    "tools/RconCli/RconCli.exe",
+    "RconCli/bin/Release/net8.0/RconCli.exe",
+    "TheIsleEvrimaRcon.exe",
+    r"C:\Users\joshu\Documents\EvrimaBot\RconCli\bin\Release\net8.0\RconCli.exe",
+])
 RCON_IP = "68.168.208.54"
 RCON_PORT = "11218"
 RCON_PASSWORD = ""
